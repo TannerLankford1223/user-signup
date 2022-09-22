@@ -1,6 +1,6 @@
 import { useState, Fragment } from "react";
-import AddUser from "./users/AddUser";
-import UserList from "./users/UserList";
+import AddUser from "./components/users/AddUser";
+import UserList from "./components/users/UserList";
 
 function App() {
   const [userList, setUserList] = useState([]);
